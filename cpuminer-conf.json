@@ -1,0 +1,20 @@
+{
+	"_comment1" : "Any long-format command line argument ",
+	"_comment2" : "may be used in this JSON configuration file",
+
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://pool.binarium.money:3001",
+	"user" : "XmfY5TpTq6scV7JgeBeeCu7YTagjCtQkDr",
+	"pass" : "cpuminer",
+
+	"algo" : "Binarium_hash_v1",
+	"threads" : 2,
+	"cpu-priority" : 0,
+	"cpu-affinity" : -1,
+
+	"benchmark" : false,
+	"debug" : true,
+	"protocol": false,
+	"quiet" : false
+}
